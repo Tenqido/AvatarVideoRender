@@ -1,0 +1,17 @@
+This is a theoretical design for open source software that can generate audio from inputted text, sync the audio to an avatar, and then generate a video of the avatar appearing to speak the words. 
+
+The design will be presented in the form of a FAQ. This is not an actual program here. Just a theoretical design that can likely be improved upon. 
+
+What is the open source library avatarify-python?
+
+Avatarify-python an open-source library that allows you to animate a still image using the movements and expressions of another person from a video. It uses deep learning techniques to transfer the facial movements from the source video to the target image, creating a realistic and synchronized animation.
+
+Avatarify-python is based on the Avatarify project, which was ostensibly developed by Aliaksandr Siarohin and his team. The library provides an easy-to-use interface for performing face animation using pre-trained models. It supports a variety of deep learning models for facial landmark detection, face alignment, and facial expression transfer.
+
+To use Avatarify-python, you'll need to install the necessary dependencies and download the required pre-trained models. Once everything is set up, you can provide a source video and a target image, and the library will generate an animated version of the target image based on the facial movements in the source video.
+
+Keep in mind that Avatarify-python is a community-driven project, and the latest updates and documentation can be found on its GitHub repository. It's always a good idea to refer to the official documentation and community resources for the most up-to-date information and support.
+
+Could avatarify-python be integrating into an electron application framework program? 
+
+See README.md
